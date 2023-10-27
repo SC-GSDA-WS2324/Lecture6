@@ -4,7 +4,7 @@
 	"name": "Python 3",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.9",
-	"postCreateCommand": "pip3 install --user -r requirements.txt >> post_create_log.txt 2>&1",
+	"postCreateCommand": "pip3 install --user -r 6_requirements.txt >> post_create_log.txt 2>&1",
 	
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
